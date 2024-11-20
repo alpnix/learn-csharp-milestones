@@ -60,7 +60,7 @@ The Building Blocks of Programming (22–37)
 - [ x ] Create Assets/Scripts/LearningCurve.cs
 	- [ x ] Create C# variables with typeof `int`, `float`, `string`, and `bool`
 	- [ x ] Add a single line, multi line, and summary comment to LearningCurve.cs
-	- [ ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
+	- [ x ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
