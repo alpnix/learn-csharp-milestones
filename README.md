@@ -71,7 +71,7 @@ Diving into Variables, Types, and Methods (38–64)
 		- [ x ] Use access modifiers to make your variables explicitly `public` and `private`
 		- [ x ] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
 		- [ x ] Concatenate strings using the `+` operator, and the string interpolation method `$`
-	- [ ] Methods
+	- [x] Methods
 		- [ x ] Define a simple method with parameters
 		- [ x ] Add a return type and return some data from a method
 		- [ x ] Use data returned from a method
