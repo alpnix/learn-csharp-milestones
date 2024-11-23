@@ -67,4 +67,29 @@ public class NewBehaviourScript : MonoBehaviour
                 break;
         }
     }
+
+    // int[] arr = {"red", "green", "blue"};
+    // Debug.Log(arr[1]);
+
+    int[] arr = {1, 2, 3, 4, 5};
+    List<string> colors = new List<string>(new string[] {"red", "green", "blue"});
+    Dictionary<string, int> colorToValue = new Dictionary<string, int> {
+        {"red", 1},
+        {"green", 2},
+        {"blue", 3}
+    };
+
+    for (int i = 0; i < colors.Length; i++) {
+        if (i == 2) {
+            Debug.Log(colors[i]);
+        }
+    }
+
+    foreach (string color in colors) {
+        Debug.Log(color);
+    }
+
+    foreach (KeyValuePair<string, int> entry in colorToValue) {
+        Debug.LogFormat("The value of {0} is {1}", entry.Key, entry.Value);
+    }
 }
