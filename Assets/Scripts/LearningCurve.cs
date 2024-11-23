@@ -34,6 +34,37 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float curTime = Time.time;
         
+        if (curTime > 10000.0f) {
+            if (true) {
+                Debug.Log("This is always true");
+            }
+            Debug.Log("Time is greater than 10000 seconds");
+        }
+        else if (curTime > 1000.0f) {
+            Debug.Log("Time is greater than 1000 seconds");
+        }
+        else {
+            if (!true) {
+                Debug.Log("This is always false"); // never prints
+            }
+            Debug.Log("Time is less than 1000 seconds");
+        }
+
+        switch (integer) {
+            case 1:
+                Debug.Log("The value of integer is 1");
+                break;
+            case 2:
+                Debug.Log("The value of integer is 2");
+                break;
+            case 3:
+                Debug.Log("The value of integer is 3");
+                break;
+            default:
+                Debug.Log("The value of integer is not 1, 2, or 3");
+                break;
+        }
     }
 }

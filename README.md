@@ -82,11 +82,11 @@ Diving into Variables, Types, and Methods (38–64)
 Control Flow and Collection Types (65–93)
 
 - [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Conditionals
-		- [ ] Write `if`, `else if`, and `else` statements
-		- [ ] Test for `true` and `!true` in a conditional
-		- [ ] Write a nested `if` statement
-		- [ ] Write a `switch` statement
+	- [ x ] Conditionals
+		- [ x ] Write `if`, `else if`, and `else` statements
+		- [ x ] Test for `true` and `!true` in a conditional
+		- [ x ] Write a nested `if` statement
+		- [ x ] Write a `switch` statement
 	- [ ] Collections
 		- [ ] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
 		- [ ] Write an Array of the type `int[]`
