@@ -126,5 +126,25 @@ public class NewBehaviourScript : MonoBehaviour
     // foreach (KeyValuePair<string, int> entry in colorToValue) {
     //     Debug.LogFormat("The value of {0} is {1}", entry.Key, entry.Value);
     // 
+
+        if (Input.GetKey(KeyCode.W)) // Move forward
+        {
+            Debug.Log("W key is pressed!");
+        }
+
+        float moveSpeed = 5f;
+        float rotateSpeed = 50f;
+
+        // Move forward/backward
+        if (Input.GetKey(KeyCode.W))
+            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        if (Input.GetKey(KeyCode.S))
+            transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
+
+        // Rotate left/right
+        if (Input.GetKey(KeyCode.A))
+            transform.Rotate(Vector3.up, -rotateSpeed * Time.deltaTime);
+        if (Input.GetKey(KeyCode.D))
+            transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime);
     }
 }
