@@ -29,6 +29,12 @@ public class NewBehaviourScript : MonoBehaviour
         Debug.Log($"The square of {integer} is {simpleMethod(integer)}");
         floatingPoint = 3.14f;
         Debug.Log(floatingPoint);
+
+        Character hero = new Character("Player", 100);
+        Character heroine = new Character("Enemy", 20);
+        
+        Debug.LogFormat("The name of the hero is {0} and their health is {1}", hero.name, hero.health);
+        Debug.LogFormat("The name of the heroine is {0} and their health is {1}", heroine.name, heroine.health);
     }
 
     // Update is called once per frame
@@ -79,17 +85,17 @@ public class NewBehaviourScript : MonoBehaviour
         {"blue", 3}
     };
 
-    for (int i = 0; i < colors.Length; i++) {
-        if (i == 2) {
-            Debug.Log(colors[i]);
-        }
-    }
+    // for (int i = 0; i < colors.Length; i++) {
+    //     if (i == 2) {
+    //         Debug.Log(colors[i]);
+    //     }
+    // }
 
-    foreach (string color in colors) {
-        Debug.Log(color);
-    }
+    // foreach (string color in colors) {
+    //     Debug.Log(color);
+    // }
 
-    foreach (KeyValuePair<string, int> entry in colorToValue) {
-        Debug.LogFormat("The value of {0} is {1}", entry.Key, entry.Value);
-    }
+    // foreach (KeyValuePair<string, int> entry in colorToValue) {
+    //     Debug.LogFormat("The value of {0} is {1}", entry.Key, entry.Value);
+    // }
 }

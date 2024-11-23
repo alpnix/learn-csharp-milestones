@@ -48,54 +48,54 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- [ x ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: **file:///Applications/Unity/Hub/Editor/2022.3.44f1/Documentation/en/Manual/class-Camera.html**
-- [ x ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: **file:///Applications/Unity/Hub/Editor/2022.3.44f1/Documentation/en/ScriptReference/Camera.html**
-- [ x ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: **https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/**
+- [x] ✏️ Open the reference manual for any component from inside Unity. Paste the link: **file:///Applications/Unity/Hub/Editor/2022.3.44f1/Documentation/en/Manual/class-Camera.html**
+- [x] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: **file:///Applications/Unity/Hub/Editor/2022.3.44f1/Documentation/en/ScriptReference/Camera.html**
+- [x] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: **https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/**
 
 
 ## Chapter 2
 The Building Blocks of Programming (22–37)
 
-- [ x ] Open the Unity project contained within this repo
-- [ x ] Create Assets/Scripts/LearningCurve.cs
-	- [ x ] Create C# variables with typeof `int`, `float`, `string`, and `bool`
-	- [ x ] Add a single line, multi line, and summary comment to LearningCurve.cs
-	- [ x ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
+- [x] Open the Unity project contained within this repo
+- [x] Create Assets/Scripts/LearningCurve.cs
+	- [x] Create C# variables with typeof `int`, `float`, `string`, and `bool`
+	- [x] Add a single line, multi line, and summary comment to LearningCurve.cs
+	- [x] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
 Diving into Variables, Types, and Methods (38–64)
 
-- [ x ] Update Assets/Scripts/LearningCurve.cs
-	- [ x ] Variables
-		- [ x ] Use access modifiers to make your variables explicitly `public` and `private`
-		- [ x ] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
-		- [ x ] Concatenate strings using the `+` operator, and the string interpolation method `$`
+- [x] Update Assets/Scripts/LearningCurve.cs
+	- [x] Variables
+		- [x] Use access modifiers to make your variables explicitly `public` and `private`
+		- [x] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
+		- [x] Concatenate strings using the `+` operator, and the string interpolation method `$`
 	- [x] Methods
-		- [ x ] Define a simple method with parameters
-		- [ x ] Add a return type and return some data from a method
-		- [ x ] Use data returned from a method
-- [ x ] ✏️ Explain some differences between public and private variables: **The private variables are only visible to the asset instance they are created in. Whereas, the public variables are accessible by everyone.**
+		- [x] Define a simple method with parameters
+		- [x] Add a return type and return some data from a method
+		- [x] Use data returned from a method
+- [x] ✏️ Explain some differences between public and private variables: **The private variables are only visible to the asset instance they are created in. Whereas, the public variables are accessible by everyone.**
 
 
 ## Chapter 4
 Control Flow and Collection Types (65–93)
 
-- [ x ] Update Assets/Scripts/LearningCurve.cs
-	- [ x ] Conditionals
-		- [ x ] Write `if`, `else if`, and `else` statements
-		- [ x ] Test for `true` and `!true` in a conditional
-		- [ x ] Write a nested `if` statement
-		- [ x ] Write a `switch` statement
-	- [ x ] Collections
-		- [ x ] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **error, because of putting multiple characters into a single character quotation and trying to convert from string to integer which is not possible**
-		- [ x ] Write an Array of the type `int[]`
-		- [ x ] Write a List of the type `List<string>`
-		- [ x ] Write a Dictionary of the type `Dictionary<string, int>`
-	- [ x ] Loops
-		- [ x ] Use a `for` loop to print a specific index of a `List<string>`
-		- [ x ] Use a `foreach` loop to print all indexes of a `List<string>`
-		- [ x ] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
+- [x] Update Assets/Scripts/LearningCurve.cs
+	- [x] Conditionals
+		- [x] Write `if`, `else if`, and `else` statements
+		- [x] Test for `true` and `!true` in a conditional
+		- [x] Write a nested `if` statement
+		- [x] Write a `switch` statement
+	- [x] Collections
+		- [x] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **error, because of putting multiple characters into a single character quotation and trying to convert from string to integer which is not possible**
+		- [x] Write an Array of the type `int[]`
+		- [x] Write a List of the type `List<string>`
+		- [x] Write a Dictionary of the type `Dictionary<string, int>`
+	- [x] Loops
+		- [x] Use a `for` loop to print a specific index of a `List<string>`
+		- [x] Use a `foreach` loop to print all indexes of a `List<string>`
+		- [x] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
 
 
 
@@ -103,11 +103,11 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
-	- [ ] Create Assets/Scripts/Character.cs
-		- [ ] Create a `Character` class
-		- [ ] Create `string` and `int` fields inside the Character class
-		- [ ] Create a `Character()` constructor and populate the above fields with its parameters
+	- [x] ✏️ Explain the difference between reference and value type variables: **Reference variables are storing memory locations to objects or other variables created in your program. Whereas, value type variables are storing the actual singular value that is stored in the memory instead of the location.**
+	- [x] Create Assets/Scripts/Character.cs
+		- [x] Create a `Character` class
+		- [x] Create `string` and `int` fields inside the Character class
+		- [x] Create a `Character()` constructor and populate the above fields with its parameters
 	- [ ] Update Assets/Scripts/LearningCurve.cs
 		- [ ] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
 		- [ ] Print out each characters data
